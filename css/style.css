@@ -248,7 +248,7 @@ section .model7 .text2{margin-top:15px;font-size:14px;color:#666;line-height:24p
 /* section model8 */
 section .news{width:100%;margin-top:-80px}
 section .news h2{text-align:center;margin-bottom:25px}
-section .news .news_list_wrap{width:calc(100%- 50px);padding:0 25px;padding-bottom:20px;overflow:hidden;height:12.1rem}
+section .news .news_list_wrap{width:calc(100%- 50px);padding:0 25px;padding-bottom:20px;overflow:hidden;height:12.5rem}
 section .news .news_list_wrap .news_list:first-child{border-top:1px solid #dcdee9;}
 section .news .news_list_wrap .news_list{border-bottom:1px solid #dcdee9;padding:15px 0;overflow:hidden;}
 section .news .news_list_wrap .news_list div:first-child p{font-size:16px;float:left;width:100%;display: inline-block;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;font-weight:600;}
