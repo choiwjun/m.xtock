@@ -100,7 +100,7 @@ section .model2 .form_label span{clear: both;}
 section .model2 .form_label span:first-child{font-size:14px;color:#bebebe;font-weight:700;margin-right:10px}
 section .model2 .form_label span:last-child{font-size:11px;color:#222;margin-top:15px}
 section .model2 .form_label span:last-child span{font-weight:800;font-size:17px;margin-left:5px}
-section .model2 .form_opt input{width:120px;height:35px;border:1px solid #bfbfbf;padding:0 20px;font-size:15px;margin-right:10px;float:left;}
+section .model2 .form_opt input{width:100px;height:35px;border:1px solid #bfbfbf;padding:0 20px;font-size:15px;margin-right:10px;float:left;}
 .select_box{float:left;margin-bottom:20px}
 .select_box .box {
     display: inline-block;
@@ -248,7 +248,7 @@ section .model7 .text2{margin-top:15px;font-size:14px;color:#666;line-height:24p
 /* section model8 */
 section .news{width:100%;margin-top:-80px}
 section .news h2{text-align:center;margin-bottom:25px}
-section .news .news_list_wrap{width:calc(100%- 50px);padding:0 25px;padding-bottom:20px;overflow:hidden;height:12rem}
+section .news .news_list_wrap{width:calc(100%- 50px);padding:0 25px;padding-bottom:20px;overflow:hidden;height:211px}
 section .news .news_list_wrap .news_list:first-child{border-top:1px solid #dcdee9;}
 section .news .news_list_wrap .news_list{border-bottom:1px solid #dcdee9;padding:15px 0;overflow:hidden;}
 section .news .news_list_wrap .news_list div:first-child p{font-size:16px;float:left;width:100%;display: inline-block;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;font-weight:600;}
