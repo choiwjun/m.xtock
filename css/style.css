@@ -101,6 +101,7 @@ section .model2 .form_label span:first-child{font-size:14px;color:#bebebe;font-w
 section .model2 .form_label span:last-child{font-size:11px;color:#222;margin-top:15px}
 section .model2 .form_label span:last-child span{font-weight:800;font-size:17px;}
 section .model2 .form_opt input{width:120px;height:35px;border:1px solid #bfbfbf;padding:0 20px;font-size:15px;margin-right:10px;float:left;}
+.select_box{float:left;margin-bottom:20px}
 .select_box .box {
     display: inline-block;
     position: relative;
