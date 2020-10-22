@@ -157,16 +157,16 @@ $(document).ready(function(){
     var tab4 = $('#model6').offset();
 
     $('.m1').click(function(){
-        $('html, body').animate({scrollTop:tab1.top-50}, 800)
+        $('html, body').animate({scrollTop:tab1.top}, 800)
     })
     $('.m2').click(function(){
-        $('html, body').animate({scrollTop:tab2.top-50}, 800)
+        $('html, body').animate({scrollTop:tab2.top}, 800)
     })
     $('.m3').click(function(){
-        $('html, body').animate({scrollTop:tab3.top-50}, 800)
+        $('html, body').animate({scrollTop:tab3.top}, 800)
     })
     $('.m4').click(function(){
-        $('html, body').animate({scrollTop:tab4.top-50}, 800)
+        $('html, body').animate({scrollTop:tab4.top}, 800)
     })
 
 })
