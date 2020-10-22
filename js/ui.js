@@ -109,17 +109,73 @@ $(document).ready(function(){
         grabCursor: true,
         centeredSlides: true,
     });
-})
-function fnMove(seq){
-    $('nav li').click(function(){
-        $('nav').hide();
-        $('.burger a').removeClass('active-1');
-        $('html, body').removeClass("not_scroll")
-        var offset = $("#div" + seq).offset();
-        $('html, body').animate({scrollTop : offset.top-100}, 400);
+
+
+
+    (function (global, $) {
+        var $menu     = $('header nav li.m'),
+            $contents = $('.scroll'),
+            $doc      = $('html, body');
+        $(function () {
+            $menu.on('click','a', function(e){
+                $('nav').hide();
+                $('.burger a').removeClass('active-1');
+                $('html, body').removeClass("not_scroll")
+                var $target = $(this).parent(),
+                    idx     = $target.index(),
+                    section = $contents.eq(idx),
+                    offsetTop = section.offset().top-100;
+                $doc.stop()
+                        .animate({
+                            scrollTop :offsetTop
+                        }, 800);
+                return false;
+            });
+        });
+        $(window).scroll(function(){
+            var scltop = $(window).scrollTop();
+            $.each($contents, function(idx, item){
+                var $target   = $contents.eq(idx),
+                    i         = $target.index(),
+                    targetTop = $target.offset().top;
+
+                if (targetTop <= scltop) {
+                    $menu.removeClass('on');
+                    $menu.eq(idx).addClass('on');
+                }
+                if (!(200 <= scltop)) {
+                    $menu.removeClass('on');
+                }
+            })
+        });
+
+    }(window, window.jQuery));
+
+    var tab1 = $('#model3').offset();
+    var tab2 = $('#model4').offset();
+    var tab3 = $('#model5').offset();
+    var tab4 = $('#model6').offset();
+
+    $('.m1').click(function(){
+        $('html, body').animate({scrollTop:tab1.top-50}, 800)
     })
+    $('.m2').click(function(){
+        $('html, body').animate({scrollTop:tab2.top-50}, 800)
+    })
+    $('.m3').click(function(){
+        $('html, body').animate({scrollTop:tab3.top-50}, 800)
+    })
+    $('.m4').click(function(){
+        $('html, body').animate({scrollTop:tab4.top-50}, 800)
+    })
+
+})
+/*
+function fnMove(seq){
     $('.text3').click(function(){
         var offset = $("#div" + seq).offset();
         $('html, body').animate({scrollTop : offset.top-100}, 400);
+        return false;
     })
 }
+*/
