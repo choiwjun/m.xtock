@@ -157,7 +157,7 @@ $(document).ready(function(){
     var tab4 = $('#model6').offset();
 
     $('.m1').click(function(){
-        $('html, body').animate({scrollTop:tab1.top}, 800)
+        $('html, body').animate({scrollTop:tab1.top-30}, 800)
     })
     $('.m2').click(function(){
         $('html, body').animate({scrollTop:tab2.top}, 800)
