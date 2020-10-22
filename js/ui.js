@@ -118,5 +118,8 @@ function fnMove(seq){
         var offset = $("#div" + seq).offset();
         $('html, body').animate({scrollTop : offset.top-100}, 400);
     })
-   
+    $('.text3').click(function(){
+        var offset = $("#div" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top-100}, 400);
+    })
 }
