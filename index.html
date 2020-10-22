@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- 공통 meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>엑스탁</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="visual_top">
+            <header>
+                <div>
+                    <h1><a href="#">xtock prime</a></h1>
+                </div>
+                <div class="burger">
+                    <a class="menu-trigger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a onclick="fnMove('1')">스테이킹</a></li>
+                        <li><a onclick="fnMove('2')">랜딩</a></li>
+                        <li><a onclick="fnMove('3')">간편구매</a></li>
+                        <li><a onclick="fnMove('4')">프라임투자</a></li>
+                    </ul>
+                    <div>
+                        <p class="app_down_link">
+                            <a href="#" target="_blank"><img src="images/img_nav_banner.png" alt="xtock prime app down" /></a>
+                        </p>
+                    </div>
+                </nav>
+            </header>
+            <div class="main_visual_text">
+                <p>흩어져있는 가상 자산 관리</p>
+                <p>가상자산의 모든것,<br />엑스탁 프라임에서<br />간편하게</p>
+                <p><a href="#" target="_blank">서비스 바로가기&nbsp;<img src="images/btn_main_text.png" alt="move" /></a></p>
+            </div>
+        </div>
+        <section>
+            <!-- 핵심서비스 -->
+            <div class="model1">
+                <h2>엑스탁 프라임<br />핵심서비스</h2>
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper" id="visual">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <p><img src="images/ico_model1_1.png" alt="img" /></p>
+                            <p class="text1">가상자산 예치</p>
+                            <p class="text2">XTOCK을 통해 기존 공유 가능<br />발행되어 거래되다<br />블록체인으로 몇분안에 회사<br />자체토큰 만들기</p>
+                            <p class="text3"><a href="#" target="_blank">자세히</a></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/ico_model1_2.png" alt="img" /></p>
+                            <p class="text1">랜딩하기</p>
+                            <p class="text2">제1은행급 디지털 자산 보관서비스.<br />규율 있는 서비스에<br />XTOCK 보관소에서 핫 콜드<br />안심할 수 있는 스토리지</p>
+                            <p class="text3"><a href="#" target="_blank">자세히</a></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/ico_model1_3.png" alt="img" /></p>
+                            <p class="text1">간편구매</p>
+                            <p class="text2">XTOCK을 통해 기존 공유 가능<br />발행되어 거래되다<br />블록체인으로 몇분안에<br />회사 자체 토큰 만들기</p>
+                            <p class="text3"><a href="#" target="_blank">자세히</a></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/ico_model1_4.png" alt="img" /></p>
+                            <p class="text1">프라임투자</p>
+                            <p class="text2">글로벌 공인 투자자를<br />만나 보십시오.<br />XTOCK을 통해 전 세계적인<br />실제 투자를 경험할 수 있습니다.</p>
+                            <p class="text3"><a href="#" target="_blank">자세히</a></p>
+                        </div>
+                    </div>   
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <!-- // 핵심서비스 -->
+            <!-- 예치자산 -->
+            <div class="model2">
+                
+                <h2>내 예치자산으로<br />얼마를 벌 수 있을까?</h2>
+                <p>가상투자 해보기</p>
+                <div class="form_wrap">
+                    <div class="mgt20">
+                        <div class="form_label">
+                            <span>스테이킹 자산</span>
+                            <span>월 수취 이자 <span>3%</span></span>
+                        </div>
+                        <div class="form_opt">
+                            <input type="text" />
+                            <div class="select_box select_box1">
+                                <div class="box">
+                                    <div class="select">BTC</div>
+                                    <ul class="list">
+                                        <li class="selected"><img src="images/img_select_btc.png" alt="btc" style="width:15px;height:16px" />BTC</li>
+                                        <li><img src="images/img_select_te.png" alt="btc" style="width:15px;height:16px" />USDT</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_wrap">
+                    <div class="mgt20">
+                        <div class="form_label">
+                            <span>랜딩가능 한도</span>
+                            <span>LVT<span style="color:#222">50%</span>&nbsp;&nbsp;&nbsp;연<span>8%</span></span>
+                        </div>
+                        <div class="form_opt">
+                            <input type="text" />
+                            <div class="select_box select_box2">
+                                <div class="box">
+                                    <div class="select">BTC</div>
+                                    <ul class="list">
+                                        <li class="selected"><img src="images/img_select_btc.png" alt="btc" style="width:15px;height:16px" />BTC</li>
+                                        <li><img src="images/img_select_te.png" alt="btc" style="width:15px;height:16px" />USDT</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_wrap">
+                    <div class="mgt20">
+                        <div class="form_label">
+                            <span>프라임투자 수익</span>
+                            <span>연 <span>11%</span></span>
+                        </div> 
+                        <div class="form_opt">
+                            <input type="text" />
+                            <div class="select_box select_box3">
+                                <div class="box">
+                                    <div class="select">BTC</div>
+                                    <ul class="list">
+                                        <li class="selected"><img src="images/img_select_btc.png" alt="btc" style="width:15px;height:16px" />BTC</li>
+                                        <li><img src="images/img_select_te.png" alt="btc" style="width:15px;height:16px" />USDT</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //예치자산 -->
+            <!-- 스테이킹 -->
+            <div class="model3" id="div1">
+                <h3>스테이킹</h3>
+                <h2>가상자산 예치만으로<br />안정적 수익창출을?</h2>
+                <p>BTC, USDT 가상 자산을 예치하는것 만으로<br />안정적인 수익을 돌려드립니다.</p>
+                <img src="images/img_model3.png" alt="staking" />
+            </div>
+            <!-- // 스테이킹 -->
+            <!-- 랜딩 -->
+            <div class="model4" id="div2">
+                <h3>랜딩</h3>
+                <h2>예치된 가상자산으로<br />더 많은 유동성을 만들어 보세요!</h2>
+                <p>가상자산을 예치하시면 최대 00%까지 랜딩이 가능합니다.<br />투자를 위한 유동성 확보, 엑스탁 프라임과 함께 하세요.</p>
+                <ul class="tab">
+                    <li><img src="images/btn_tab1_off.png" alt="상승장" class="tab1_img" />상승장 랜딩</li>
+                    <li class="on"><img src="images/btn_tab2_on.png" alt="하락장" class="tab2_img" />하락장 랜딩</li>
+                </ul>
+                <p class="move"><a href="#" target="_blank">UDST를 담보로 BTC 빌리기</a></p>
+                <div class="tab1">
+                    <p><img src="images/img_model4_down.png" alt="하락장" /></p>
+                    
+                </div>
+                <div class="tab2">
+                    <p><img src="images/img_model4_up.png" alt="상승장" /></p>
+                    
+                </div>
+            </div>
+            <!-- // 랜딩 -->
+            <!-- 간편구매 -->
+            <div class="model5" id="div3">
+                <h3>간편구매</h3>
+                <h2>가상자산을 간편하게,<br />바로바로 구입하세요</h2>
+                <p>BTC, USDT 가상 자산을 간편하게 구매<br />하실수 있습니다.</p>
+                <img src="images/img_model5.png" alt="staking" />
+            </div>
+            <!-- // 간편구매 -->
+            <!-- 프라임 -->
+            <div class="model6" id="div4">
+                <h3>프라임</h3>
+                <h2>지금, 다양한 프라임상품에<br />스테이킹 해보세요!</h2>
+                <p>매출 채권 및 실물 자산을 담보로 하는 프라임<br />상품에 스테이킹하세요.(부동산,금,아트상품 등)</p>
+                <img src="images/img_model6.png" alt="staking" />
+            </div>
+            <!-- // 프라임 -->
+            <!-- 디파이 얼라이언스-->
+            <div class="model7">
+                <h2>디파이 얼라이언스</h2>
+                <div class="swiper-container1">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" id="slide">
+                            <p><img src="images/img_slide1.png" alt="bithumb" /></p>
+                            <p class="text1">선도적인 관리인</p>
+                            <p class="text2">골드만삭스는 비트고 트러스를 지지했다.<br />회사가 보증금을 안전하게 보관하고</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/img_slide2.png" alt="basic" /></p>
+                            <p class="text1">스마트 대부 관리자</p>
+                            <p class="text2">BTC, USDT 가상 자산을 간편하게 구매<br />하실수 있습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/img_slide3.png" alt="xangle" /></p>
+                            <p class="text1">글로벌 감사</p>
+                            <p class="text2">BTC, USDT 가상 자산을 간편하게 구매<br />하실수 있습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/img_slide1.png" alt="bithumb" /></p>
+                            <p class="text1">선도적인 관리인</p>
+                            <p class="text2">골드만삭스는 비트고 트러스를 지지했다.<br />회사가 보증금을 안전하게 보관하고</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/img_slide2.png" alt="basic" /></p>
+                            <p class="text1">스마트 대부 관리자</p>
+                            <p class="text2">BTC, USDT 가상 자산을 간편하게 구매<br />하실수 있습니다.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p><img src="images/img_slide3.png" alt="xangle" /></p>
+                            <p class="text1">글로벌 감사</p>
+                            <p class="text2">BTC, USDT 가상 자산을 간편하게 구매<br />하실수 있습니다.</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <!-- // 디파이 얼라이언스-->
+            <!-- 언론홍보 -->
+            <div class="news">
+                <h2>언론홍보</h2>
+                <div class="news_list_wrap">
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    <div class="news_list">
+                        <div>
+                            <p><a href="#" target="_blank">엑스탁, 글로벌암호화폐 및 STO 커스터디 서비스 출시</a></p>
+                        </div>
+                        <div>
+                            <span class="news_list_info"><span class="news_color_p">MEDIUM</span><span>2019.05</span></span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="news_more">
+                    <img src="images/btn_news_more.png" alt="more" />
+                </div>
+            </div>
+            <!-- // 언론홍보 -->
+            <!-- banner -->
+            <div class="banner_wrap">
+                <a href="#" target="_blank">
+                    <img src="images/img_banner.png" alt="banner" />
+                </a>
+            </div>
+            <!-- // banner -->
+        </section>
+        <footer>
+            <div class="foot_wrap">
+                <div class="foot_list" style="display:none;">
+                    <ul>
+                        <li><a href="#">가상자산예치</a></li>
+                        <li><a href="#">랜딩</a></li>
+                        <li><a href="#">프라임투자월렛</a></li>
+                        <li><a href="#">자산관리</a></li>
+                    </ul>
+                </div>
+                <div class="foot_sns" style="display:none;">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="images/img_facebook.png" alt="facebook" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/img_telegram.png" alt="telegram" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/img_gmail.png" alt="gmail" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/img_tweetter.png" alt="tweeter" /></a></li>
+                        <li><a href="#" target="_blank"><img src="images/img_kakao.png" alt="kakaotalk" /></a></li>
+                    </ul>
+                </div>
+                <address style="margin-top:0">Copyright 2018 XTOCK.io All Rights Reserved.<br />contact@xtock.io</address>
+            </div>
+        </footer>
+    </div>
+    <!-- 공통 -->
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css" />
+</body>
+</html>
