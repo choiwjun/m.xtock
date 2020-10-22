@@ -78,6 +78,8 @@ $(document).ready(function(){
         $('.tab2_img').attr('src','images/btn_tab2_off.png');
         $('.tab2').show();
         $('.tab1').hide();
+        $('.move').show();
+        $('.move1').hide();
     })
     $('.tab li:last-child').click(function(){
         $(this).css('font-weight','800')
@@ -86,6 +88,8 @@ $(document).ready(function(){
         $('.tab2_img').attr('src','images/btn_tab2_on.png');
         $('.tab2').hide();
         $('.tab1').show();
+        $('.move').hide();
+        $('.move1').show();
     })
     $('.news_more').click(function(){
         $('.news_list_wrap').css('height','auto');
@@ -114,5 +118,5 @@ function fnMove(seq){
         var offset = $("#div" + seq).offset();
         $('html, body').animate({scrollTop : offset.top-100}, 400);
     })
-    return false;
+   
 }

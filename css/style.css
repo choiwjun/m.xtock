@@ -66,7 +66,7 @@ header h1 a{opacity:0;}
 .app_down_link img{width:100%}
 header.scroll {background-color: #fff; border-bottom: 1px solid #ddd;}
 header.scroll h1{background-image: url('../images/img_logo_on.png');margin-bottom:1.3rem}
-.burger{position: absolute;right:0;top:1.3rem}
+.burger{position: absolute;right:0;top:1.1rem}
 .visual_top{background:url('../images/bg_visual_top.png') center/cover no-repeat;background-size:cover;height:90vh;position: relative;}
 .main_visual_text{float:left;color:white;margin:96px 0 0 2.5rem;clear: both;}
 .main_visual_text p:first-child{font-size:15px;}
@@ -104,13 +104,13 @@ section .model2 .form_opt input{width:120px;height:35px;border:1px solid #bfbfbf
 .select_box .box {
     display: inline-block;
     position: relative;
-    width: 120px; background:#fff;
+    width: 100px; background:#fff;
 }
 .select_box .box .select {
     position: relative;
     box-sizing: border-box;
     width: 100px; /* 원하는 너비설정 */
-    padding:7px 35px; /* 여백으로 높이 설정 */
+    padding:7px 38px; /* 여백으로 높이 설정 */
     font-family: inherit;  /* 폰트 상속 */
     border: 1px solid #bfbfbf;
     font-weight:bold;
@@ -123,18 +123,12 @@ section .model2 .form_opt input{width:120px;height:35px;border:1px solid #bfbfbf
 .select_box .box .select:after {
     content:'';
     position: absolute;
-    top:35%;
-    right: 10px;
-    background-image: url(../images/bg_selectbox.png);    
-    background-size:10px 10px;
-    width:11px;
-    height:10px
-}
-.select_box.on .box .select:after {
-    content:'';
-    background-image: url(../images/bg_selectbox.png);    
-    background-size:10px 10px;
-    width:11px;
+    top:45%;
+    right:10px;
+    background-image: url(../images/bg_selectbox.png);
+    background-repeat: no-repeat;  
+    background-size:contain;
+    width:10px;
     height:10px
 }
 .select_box .box .list {
@@ -208,8 +202,10 @@ section .model4 .m_list dl{float:left;width:25%;}
 section .model4 .m_list dt{font-size:18px;color:#4a4a4a;text-align:center;}
 section .model4 .m_list dd{color:#222;text-align:center;font-size:20px;font-weight:700;margin-top:20px}
 section .model4 .m_list dd img{vertical-align:middle;margin-right:10px}
-section .model4 .move{clear:both;margin-top:20px;font-size:14px;text-align: center;}
+section .model4 .move{clear:both;margin-top:20px;font-size:14px;text-align: center;display:none;}
 section .model4 .move a{color:#282828}
+section .model4 .move1{clear:both;margin-top:20px;font-size:14px;text-align: center;}
+section .model4 .move1 a{color:#282828}
 /* section model4 */
 /* section model5 */
 section .model5{margin-top:8rem;text-align:center}
@@ -225,16 +221,18 @@ section .model6 img{width:95%;margin-top:40px;}
 /* section model6 */
 /* section model7 */
 section .model7{margin-top:80px;}
-section .model7 h2{background:url(../images/bg_model7.png) center top no-repeat;background-size:cover;padding-top:30px;padding-left:25px;padding-bottom:50px}
+section .model7 .bg{background:url(../images/bg_model7.png) center top no-repeat;background-size:contain;position: relative;height:16.5rem;z-index:1}
+section .model7 h2{padding-left:25px;position: relative;z-index:2;top:-12rem}
 section .model7 .swiper-container1 {
-   padding:35px 0;
-    
-    margin-top:-45px;
-    overflow: hidden;
+  padding:35px 0;
+  overflow: hidden;
+  position: relative;
+  z-index:3;
+  top:-10.5rem
 }
 section .model7 .swiper-slide {
     width:100%;
-    height:150px;
+    height:auto;
     background: #fff;
     padding:15px 0;
     -webkit-box-shadow: 0px 0px 35px 5px rgba(46,48,57,0.1);
@@ -247,7 +245,7 @@ section .model7 .text1{margin-top:30px;font-size:16px;font-weight:800;color:#222
 section .model7 .text2{margin-top:15px;font-size:14px;color:#666;line-height:24px}
 /* section model7 */
 /* section model8 */
-section .news{width:100%;margin-top:80px;}
+section .news{width:100%;margin-top:-80px}
 section .news h2{text-align:center;margin-bottom:25px}
 section .news .news_list_wrap{width:calc(100%- 50px);padding:0 25px;padding-bottom:20px;overflow:hidden;height:12rem}
 section .news .news_list_wrap .news_list:first-child{border-top:1px solid #dcdee9;}
