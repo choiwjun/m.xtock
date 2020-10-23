@@ -1,4 +1,16 @@
+function checkWindowSize() {  
+
+    if ( $(window).width() > 769 ) {  
+        location.href="https://choiwjun.github.io/xtock/";
+    }  
+    else {  
+        
+    }  
+
+}  
+checkWindowSize()
 $(document).ready(function(){
+    $(window).resize(function() { if($(window).width() > 768) { location.href="https://choiwjun.github.io/xtock/"; } });
     var burger = $('.menu-trigger');
     burger.each(function(index){
         var $this = $(this);
@@ -168,7 +180,7 @@ $(document).ready(function(){
     $('.m4').click(function(){
         $('html, body').animate({scrollTop:tab4.top}, 800)
     })
-
+    
 })
 /*
 function fnMove(seq){
