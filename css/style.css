@@ -61,7 +61,7 @@ nav .active{display:block}
 .not_scroll{overflow-y: hidden; overflow-x: hidden;}
 .n_scroll{overflow-y:scroll; overflow-x: scroll;}
 header{position:fixed;top:0;z-index:999;width:100%;}
-header h1{display:inline-block;margin:1.3rem 0 0 1.5rem;background:url('../images/img_logo.png') no-repeat;background-size: contain;width:100%;height:18px}
+header h1{display:inline-block;margin:1.3rem 0 0 1.5rem;background:url('../images/img_logo.png') no-repeat;background-size: contain;width:100%;height:24px}
 header h1 a{opacity:0;}
 .app_down_link img{width:100%}
 header.scroll {background-color: #fff; border-bottom: 1px solid #ddd;}
